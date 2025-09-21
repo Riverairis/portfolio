@@ -1778,6 +1778,13 @@ section {
   z-index: 1;
 }
 
+/* Contact Form Adjustments */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4); /* Increased gap between form elements */
+}
+
 .contact-form-wrapper {
   background: var(--bg-elevated);
   border: 1px solid var(--border-primary);
@@ -1814,6 +1821,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
+   margin-bottom: var(--space-4);
 }
 
 .form-group label {
